@@ -1,4 +1,4 @@
-1. Các thư viện và module sử dụng:
+##1. Các thư viện và module sử dụng:
 
 + numpy và tensorflow: Dùng để xử lý các phép toán số học và thực hiện các tác vụ học máy.
 
@@ -14,7 +14,7 @@
 
 + EarlyStopping từ tensorflow.keras.callbacks: Dùng để dừng quá trình huấn luyện nếu độ lỗi không cải thiện, giúp tránh overfitting.
 
-2. Chi tiết các bước trong mã:
+##2. Chi tiết các bước trong mã:
 
 Hàm set_seed(): Đảm bảo tính tái lập kết quả bằng cách thiết lập hạt giống ngẫu nhiên cho các thư viện liên quan như numpy, tensorflow, và random.
 
@@ -42,7 +42,7 @@ Sau mỗi fold, chương trình tính toán các chỉ số đánh giá mô hìn
 
 Ma trận nhầm lẫn được hiển thị dưới dạng heatmap cho mỗi fold, và cuối cùng, tính toán và vẽ ma trận nhầm lẫn trung bình từ tất cả các fold.
 
-3. Quy trình huấn luyện và đánh giá mô hình:
+##3. Quy trình huấn luyện và đánh giá mô hình:
 
 Chuẩn bị dữ liệu: Dữ liệu đầu vào được chia thành tập huấn luyện và tập kiểm tra dựa trên chỉ số fold.
 
@@ -53,13 +53,13 @@ Huấn luyện mô hình: Mô hình được huấn luyện trên tập huấn l
 
 Đánh giá mô hình: Sau khi huấn luyện xong, mô hình được kiểm tra trên tập kiểm tra và tính toán các chỉ số như độ chính xác, độ nhạy, độ đặc hiệu. Đồng thời, vẽ ma trận nhầm lẫn cho từng fold và tính toán các giá trị trung bình.
 
-4. Hiển thị kết quả:
+##4. Hiển thị kết quả:
 
 Biểu đồ ma trận nhầm lẫn được vẽ cho từng fold, cùng với các chỉ số đánh giá cho từng fold.
 Sau khi hoàn thành cross-validation, chương trình tính toán các chỉ số trung bình (accuracy, sensitivity, specificity) và hiển thị chúng cùng với độ lệch chuẩn.
 
 Cuối cùng, ma trận nhầm lẫn trung bình từ tất cả các fold được vẽ để đánh giá tổng thể hiệu suất mô hình.
-5. Cách import các thư viện: 
+##5. Cách import các thư viện: 
 
 + pip install tensorflow
 + pip install numpy
