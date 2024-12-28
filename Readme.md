@@ -1,5 +1,5 @@
 
-*1. Các thư viện và module sử dụng:*
+*1. Các thư viện và module sử _dụng_
 
 + numpy và tensorflow: Dùng để xử lý các phép toán số học và thực hiện các tác vụ học máy.
 
